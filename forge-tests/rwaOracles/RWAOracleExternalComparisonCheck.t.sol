@@ -47,7 +47,7 @@ contract RWAOracleExternalComparisonCheckTest is MinimalTestRunner {
     oracle = new RWAOracleExternalComparisonCheck(
       INITIAL_RWA_PRICE,
       address(mockChainlinkOracle),
-      "CONSTRAINED OUSG ORACLE TEST",
+      "CONSTRAINED USBS ORACLE TEST",
       address(this), //admin
       address(this) //setter role
     );
@@ -86,7 +86,7 @@ contract RWAOracleExternalComparisonCheckTest is MinimalTestRunner {
     assertEq(INITIAL_RWA_PRICE, oracle.rwaPrice());
     assertEq(block.timestamp, oracle.priceTimestamp());
     assertEq(address(mockChainlinkOracle), address(oracle.chainlinkOracle()));
-    string memory desc = "CONSTRAINED OUSG ORACLE TEST";
+    string memory desc = "CONSTRAINED USBS ORACLE TEST";
     assertEq(desc, oracle.description());
     (
       uint80 roundId,
@@ -116,7 +116,7 @@ contract RWAOracleExternalComparisonCheckTest is MinimalTestRunner {
     oracle = new RWAOracleExternalComparisonCheck(
       INITIAL_RWA_PRICE,
       address(mockChainlinkOracle),
-      "CONSTRAINED OUSG ORACLE TEST",
+      "CONSTRAINED USBS ORACLE TEST",
       address(this),
       address(this)
     );
@@ -136,7 +136,7 @@ contract RWAOracleExternalComparisonCheckTest is MinimalTestRunner {
     oracle = new RWAOracleExternalComparisonCheck(
       INITIAL_RWA_PRICE,
       address(mockChainlinkOracle),
-      "CONSTRAINED OUSG ORACLE TEST",
+      "CONSTRAINED USBS ORACLE TEST",
       address(this),
       address(this)
     );
