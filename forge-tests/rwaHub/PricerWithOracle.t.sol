@@ -37,7 +37,7 @@ contract Test_PricerWithOracle is MinimalTestRunner {
     oracle = new RWAOracleExternalComparisonCheck(
       INITIAL_RWA_PRICE,
       address(mockChainlinkOracle),
-      "CONSTRAINED OUSG ORACLE TEST",
+      "CONSTRAINED USBS ORACLE TEST",
       address(this), //admin
       address(this) //setter role
     );

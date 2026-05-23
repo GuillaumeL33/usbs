@@ -1,18 +1,6 @@
-/**SPDX-License-Identifier: BUSL-1.1
-
-      ▄▄█████████▄
-   ╓██▀└ ,╓▄▄▄, '▀██▄
-  ██▀ ▄██▀▀╙╙▀▀██▄ └██µ           ,,       ,,      ,     ,,,            ,,,
- ██ ,██¬ ▄████▄  ▀█▄ ╙█▄      ▄███▀▀███▄   ███▄    ██  ███▀▀▀███▄    ▄███▀▀███,
-██  ██ ╒█▀'   ╙█▌ ╙█▌ ██     ▐██      ███  █████,  ██  ██▌    └██▌  ██▌     └██▌
-██ ▐█▌ ██      ╟█  █▌ ╟█     ██▌      ▐██  ██ └███ ██  ██▌     ╟██ j██       ╟██
-╟█  ██ ╙██    ▄█▀ ▐█▌ ██     ╙██      ██▌  ██   ╙████  ██▌    ▄██▀  ██▌     ,██▀
- ██ "██, ╙▀▀███████████⌐      ╙████████▀   ██     ╙██  ███████▀▀     ╙███████▀`
-  ██▄ ╙▀██▄▄▄▄▄,,,                ¬─                                    '─¬
-   ╙▀██▄ '╙╙╙▀▀▀▀▀▀▀▀
-      ╙▀▀██████R⌐
-
- */
+// SPDX-License-Identifier: BUSL-1.1
+//
+// BRIVO
 pragma solidity 0.8.16;
 
 import "contracts/external/openzeppelin/contracts-upgradeable/proxy/Initializable.sol";
@@ -21,7 +9,7 @@ import "contracts/sanctions/ISanctionsListClient.sol";
 
 /**
  * @title SanctionsListClient
- * @author Ondo Finance
+ * @author Brivo
  * @notice This abstract contract enables inheritors to query whether accounts
  *         are sanctioned or not
  */

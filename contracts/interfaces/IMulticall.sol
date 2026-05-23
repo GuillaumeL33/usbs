@@ -1,24 +1,12 @@
-/**SPDX-License-Identifier: BUSL-1.1
-
-      ▄▄█████████▄
-   ╓██▀└ ,╓▄▄▄, '▀██▄
-  ██▀ ▄██▀▀╙╙▀▀██▄ └██µ           ,,       ,,      ,     ,,,            ,,,
- ██ ,██¬ ▄████▄  ▀█▄ ╙█▄      ▄███▀▀███▄   ███▄    ██  ███▀▀▀███▄    ▄███▀▀███,
-██  ██ ╒█▀'   ╙█▌ ╙█▌ ██     ▐██      ███  █████,  ██  ██▌    └██▌  ██▌     └██▌
-██ ▐█▌ ██      ╟█  █▌ ╟█     ██▌      ▐██  ██ └███ ██  ██▌     ╟██ j██       ╟██
-╟█  ██ ╙██    ▄█▀ ▐█▌ ██     ╙██      ██▌  ██   ╙████  ██▌    ▄██▀  ██▌     ,██▀
- ██ "██, ╙▀▀███████████⌐      ╙████████▀   ██     ╙██  ███████▀▀     ╙███████▀`
-  ██▄ ╙▀██▄▄▄▄▄,,,                ¬─                                    '─¬
-   ╙▀██▄ '╙╙╙▀▀▀▀▀▀▀▀
-      ╙▀▀██████R⌐
-
- */
+// SPDX-License-Identifier: BUSL-1.1
+//
+// BRIVO
 pragma solidity 0.8.16;
 
 /**
  * @title IMulticall
- * @author Ondo Finance
- * @notice This interface dictates the required external functions for Ondo's
+ * @author Brivo
+ * @notice This interface dictates the required external functions for Brivo's
  *         multicall contract.
  */
 interface IMulticall {

@@ -9,27 +9,20 @@ import "hardhat-gas-reporter";
 import "solidity-coverage";
 import "@openzeppelin/hardhat-upgrades";
 
-// OMMF deployment Helpers
-import "./scripts/ommf/1-ommf-prod";
-import "./scripts/ommf/2-save-ommf-prod";
-import "./scripts/ommf/3-wommf-prod";
-import "./scripts/ommf/4-save-wommf-prod";
-import "./scripts/ommf/5-ommfManager-prod";
-
-// USDY deployment Helpers
-import "./scripts/usdy/1-allowlist-prod";
-import "./scripts/usdy/2-save-allowlist-prod";
-import "./scripts/usdy/3-usdy-prod";
-import "./scripts/usdy/4-save-usdy-prod";
-import "./scripts/usdy/5-usdyManager-prod";
+// USBS deployment Helpers
+import "./scripts/usbs/1-allowlist-prod";
+import "./scripts/usbs/2-save-allowlist-prod";
+import "./scripts/usbs/3-usbs-prod";
+import "./scripts/usbs/4-save-usbs-prod";
+import "./scripts/usbs/5-usbsManager-prod";
 
 // Post Deploy Verification Scripts
-import "./scripts/usdy/verification-scripts/assert_usdy_configuration";
-import "./scripts/usdy/verification-scripts/assert_allowlist_configuration";
-import "./scripts/usdy/verification-scripts/assert_blocklist_configuration";
-import "./scripts/usdy/verification-scripts/assert_usdyManager_configuration";
-import "./scripts/usdy/verification-scripts/assert_rwaOracle_rateCheck_configuration";
-import "./scripts/usdy/verification-scripts/assert_pricer_usdy_configuration";
+import "./scripts/usbs/verification-scripts/assert_usbs_configuration";
+import "./scripts/usbs/verification-scripts/assert_allowlist_configuration";
+import "./scripts/usbs/verification-scripts/assert_blocklist_configuration";
+import "./scripts/usbs/verification-scripts/assert_usbsManager_configuration";
+import "./scripts/usbs/verification-scripts/assert_rwaOracle_rateCheck_configuration";
+import "./scripts/usbs/verification-scripts/assert_pricer_usbs_configuration";
 import "./scripts/utils/prod-subtasks.ts";
 
 import { HardhatUserConfig } from "hardhat/config";

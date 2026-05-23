@@ -1,18 +1,6 @@
-/**SPDX-License-Identifier: BUSL-1.1
-
-      ▄▄█████████▄
-   ╓██▀└ ,╓▄▄▄, '▀██▄
-  ██▀ ▄██▀▀╙╙▀▀██▄ └██µ           ,,       ,,      ,     ,,,            ,,,
- ██ ,██¬ ▄████▄  ▀█▄ ╙█▄      ▄███▀▀███▄   ███▄    ██  ███▀▀▀███▄    ▄███▀▀███,
-██  ██ ╒█▀'   ╙█▌ ╙█▌ ██     ▐██      ███  █████,  ██  ██▌    └██▌  ██▌     └██▌
-██ ▐█▌ ██      ╟█  █▌ ╟█     ██▌      ▐██  ██ └███ ██  ██▌     ╟██ j██       ╟██
-╟█  ██ ╙██    ▄█▀ ▐█▌ ██     ╙██      ██▌  ██   ╙████  ██▌    ▄██▀  ██▌     ,██▀
- ██ "██, ╙▀▀███████████⌐      ╙████████▀   ██     ╙██  ███████▀▀     ╙███████▀`
-  ██▄ ╙▀██▄▄▄▄▄,,,                ¬─                                    '─¬
-   ╙▀██▄ '╙╙╙▀▀▀▀▀▀▀▀
-      ╙▀▀██████R⌐
-
- */
+// SPDX-License-Identifier: BUSL-1.1
+//
+// BRIVO
 pragma solidity 0.8.16;
 
 import "contracts/external/chainalysis/ISanctionsList.sol";
@@ -20,7 +8,7 @@ import "contracts/sanctions/ISanctionsListClient.sol";
 
 /**
  * @title SanctionsListClient
- * @author Ondo Finance
+ * @author Brivo
  * @notice This abstract contract manages state required for clients
  *         of the sanctions list
  */

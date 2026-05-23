@@ -1,18 +1,6 @@
-/**SPDX-License-Identifier: BUSL-1.1
-
-      ▄▄█████████▄
-   ╓██▀└ ,╓▄▄▄, '▀██▄
-  ██▀ ▄██▀▀╙╙▀▀██▄ └██µ           ,,       ,,      ,     ,,,            ,,,
- ██ ,██¬ ▄████▄  ▀█▄ ╙█▄      ▄███▀▀███▄   ███▄    ██  ███▀▀▀███▄    ▄███▀▀███,
-██  ██ ╒█▀'   ╙█▌ ╙█▌ ██     ▐██      ███  █████,  ██  ██▌    └██▌  ██▌     └██▌
-██ ▐█▌ ██      ╟█  █▌ ╟█     ██▌      ▐██  ██ └███ ██  ██▌     ╟██ j██       ╟██
-╟█  ██ ╙██    ▄█▀ ▐█▌ ██     ╙██      ██▌  ██   ╙████  ██▌    ▄██▀  ██▌     ,██▀
- ██ "██, ╙▀▀███████████⌐      ╙████████▀   ██     ╙██  ███████▀▀     ╙███████▀`
-  ██▄ ╙▀██▄▄▄▄▄,,,                ¬─                                    '─¬
-   ╙▀██▄ '╙╙╙▀▀▀▀▀▀▀▀
-      ╙▀▀██████R⌐
-
- */
+// SPDX-License-Identifier: BUSL-1.1
+//
+// BRIVO
 pragma solidity 0.8.16;
 import "contracts/external/chainlink/AggregatorV3Interface.sol";
 import "contracts/rwaOracles/IRWAOracleExternalComparisonCheck.sol";
@@ -31,7 +19,7 @@ contract RWAOracleExternalComparisonCheck is
     uint80 answeredInRound;
   }
 
-  // Price of RWA token (OUSG, OSTB, OHYG, etc.)
+  // Price of RWA token (USBS, USBL, USCS, etc.)
   int256 public rwaPrice;
 
   // Timestamp in which the RWA token price was last set
