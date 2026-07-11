@@ -4,8 +4,9 @@ on:
   push:
     branches:
       - tmp-decathlon-data-20260711
-    paths:
-      - .github/workflows/generate-decathlon-world.yml
+  pull_request:
+    branches:
+      - main
 
 permissions:
   contents: write
@@ -18,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 35
     steps:
-      - name: Checkout
+      - name: Checkout temporary data branch
         uses: actions/checkout@v4
         with:
           ref: tmp-decathlon-data-20260711
